@@ -1,0 +1,16 @@
+{
+  "name": "foxie-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js",
+    "watch": "node_modules/webpack/bin/webpack.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "livescript-loader": "^0.1.6",
+    "webpack": "^1.13.3"
+  }
+}
